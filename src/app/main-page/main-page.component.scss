@@ -7,8 +7,8 @@
   width: 100%;
 
   // Horizontally and vertically centered
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 
   h1 {
     color: $dark;
@@ -26,8 +26,8 @@
   height: 250px;
 
   // Horizontally and vertically centered
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 
   h2 {
     color: white;
@@ -42,5 +42,17 @@
     &.red {
       color: lighten($red, 12%);
     }
+  }
+}
+
+.add-item-section {
+  display: flex;
+
+  // Horizontally and vertically centered
+  align-items: center;
+  justify-content: center;
+
+  .add-item-container {
+    width: 680px;
   }
 }
